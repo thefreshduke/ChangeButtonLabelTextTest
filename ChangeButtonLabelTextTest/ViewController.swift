@@ -10,7 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var highButton: UIButton!
     @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var lowButton: UIButton!
+    
+    
+    @IBAction func highButtonClicked(sender: AnyObject) {
+        if (lowButton.titleLabel!.text == "LOW") {
+            lowButton.setTitle("低", forState: UIControlState.Normal)
+        }
+        else {
+            lowButton.setTitle("LOW", forState: UIControlState.Normal)
+        }
+    }
     
     @IBAction func button1Clicked(sender: AnyObject) {
         if (button1.titleLabel!.text == "CLICK ME") {
@@ -18,6 +30,15 @@ class ViewController: UIViewController {
         }
         else {
             button1.setTitle("CLICK ME", forState: UIControlState.Normal)
+        }
+    }
+    
+    @IBAction func lowButtonClicked(sender: AnyObject) {
+        if (highButton.titleLabel!.text == "HIGH") {
+            highButton.setTitle("高", forState: UIControlState.Normal)
+        }
+        else {
+            highButton.setTitle("HIGH", forState: UIControlState.Normal)
         }
     }
     
@@ -30,7 +51,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 }
 

@@ -42,15 +42,45 @@
                                     <action selector="button1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cH-Lc-P3Z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpu-gI-Z0m">
+                                <rect key="frame" x="250" y="420" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="80u-Je-dMC"/>
+                                    <constraint firstAttribute="height" constant="50" id="AP9-Tq-eOY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="MOf-rQ-pHl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="g9y-LM-eEd"/>
+                                </constraints>
+                                <state key="normal" title="LOW"/>
+                                <connections>
+                                    <action selector="lowButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="230-x7-MNA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrK-FW-Xar">
+                                <rect key="frame" x="250" y="130" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6gW-Ok-NVn"/>
+                                    <constraint firstAttribute="height" constant="50" id="thL-he-adN"/>
+                                </constraints>
+                                <state key="normal" title="HIGH"/>
+                                <connections>
+                                    <action selector="highButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jjv-9M-Lnr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="n23-kJ-Ut6" firstAttribute="top" secondItem="TrK-FW-Xar" secondAttribute="bottom" constant="20" id="0We-7P-53I"/>
                             <constraint firstItem="n23-kJ-Ut6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="22r-Lh-ftr"/>
                             <constraint firstItem="n23-kJ-Ut6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PXp-AW-dFW"/>
+                            <constraint firstItem="TrK-FW-Xar" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TXH-u6-FzP"/>
+                            <constraint firstItem="cpu-gI-Z0m" firstAttribute="top" secondItem="n23-kJ-Ut6" secondAttribute="bottom" constant="20" id="f1K-eD-OFE"/>
+                            <constraint firstItem="cpu-gI-Z0m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s6R-bx-rGA"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button1" destination="n23-kJ-Ut6" id="95y-3x-fpm"/>
+                        <outlet property="highButton" destination="TrK-FW-Xar" id="o6n-An-ZQO"/>
+                        <outlet property="lowButton" destination="cpu-gI-Z0m" id="iXA-CL-ihZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
