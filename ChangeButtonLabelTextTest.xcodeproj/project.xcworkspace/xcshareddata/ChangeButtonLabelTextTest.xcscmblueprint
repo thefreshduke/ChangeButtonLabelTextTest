@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5EB83BB8CC69050A32529B2220C00FD012DBDFB0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5EB83BB8CC69050A32529B2220C00FD012DBDFB0" : 0,
+    "4A762B727C72E1EAA39EAEA3996B9BD9367C15B4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AFC9C759-0E4A-4E8E-BE75-B3F3442BA49C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5EB83BB8CC69050A32529B2220C00FD012DBDFB0" : "ChangeButtonLabelTextTest\/",
+    "4A762B727C72E1EAA39EAEA3996B9BD9367C15B4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChangeButtonLabelTextTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChangeButtonLabelTextTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:thefreshduke\/PrimeNumberTutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A762B727C72E1EAA39EAEA3996B9BD9367C15B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:thefreshduke\/ChangeButtonLabelTextTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5EB83BB8CC69050A32529B2220C00FD012DBDFB0"
+    }
+  ]
+}

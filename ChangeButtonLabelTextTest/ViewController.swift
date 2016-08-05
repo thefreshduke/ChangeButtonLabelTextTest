@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func highButtonClicked(sender: AnyObject) {
-        if (lowButton.titleLabel!.text == "LOW") {
+        if (lowButton.currentTitle == "LOW") {
             lowButton.setTitle("低", forState: UIControlState.Normal)
         }
         else {
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func lowButtonClicked(sender: AnyObject) {
-        if (highButton.titleLabel!.text == "HIGH") {
+        if (highButton.currentTitle == "HIGH") {
             highButton.setTitle("高", forState: UIControlState.Normal)
         }
         else {
